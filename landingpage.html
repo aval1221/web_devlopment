@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing_Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo h1{
+            padding: 20px;
+            font-size: 3em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 700;
+            font-style: normal;   
+        }
+        
+        header {
+            background: #229799;
+            padding: 20px 0;
+            color: #424242;
+            text-align: center;
+        }
+        
+        header .logo {
+            float: left;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        header nav ul {
+            list-style: none;
+            float: right;
+        }
+        
+        header nav ul li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        
+        header nav ul li a {
+            text-decoration: none;
+            color: #424242;
+        }
+        
+        header .contact-info {
+            clear: both;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        header .contact-info .button {
+            background: #48CFCB;
+            color: #424242;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .hero img {
+            width: 100%; /* Make sure the image covers the full width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:#424242;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+        }
+        
+        .hero h2 {
+            font-size: 24px;
+            font-weight: normal;
+        }
+        
+        .hero p {
+            margin: 20px 0;
+        }
+        
+        .hero-buttons .button {
+            background: #229799;
+            color: #424242;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        #about{
+            background: #229799;
+            color: #424242;
+            margin-bottom: 10px;
+        }
+        
+        .about, .services {
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .services .service {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #229799;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background:#48CFCB;
+            color:#424242;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Landing Page</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>Services</b></a></li>
+                    <li><a href="#testimonials"><b>Testimonials</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>+123-456-7890 | demo@example.com</p>
+                <a href="#" class="button">Request a Consult</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- Add the image tag here -->
+            <img src="https://i.pinimg.com/564x/67/5e/c1/675ec112144f704c32670f178a4a62e8.jpg" alt="Hero Image">
+
+            <div class="hero-content">
+                <h2><b>WE ARE CREATIVE!!</b></h2>
+                <h1><b>Creative Digital Agency</b></h1>
+                <p>Our commitment to excellence drives us to create expectional user experience...</p>
+                <div class="hero-buttons">
+                    <a href="#" class="button">Read More</a>
+                    <a href="#" class="button">Request a Consult</a>
+                </div>
+            </div>
+       
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>15 years, we passionate about achieving better results for our clients.</p>
+            <p>We are leading company delivering innovative solutions across industries.</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>User Experience</h3>
+                <p> Enjoy an intuitive and seamless experience designed to inspire and engage effortlessly.</p>
+            </div>
+            <div class="service">
+                <h3>Creative Design</h3>
+                <p>creative designs push boundaries, blending innovation with aesthetic perfection.</p>
+            </div>
+            <div class="service">
+                <h3>Retina Ready</h3>
+                <p> Ensure stunning visual clarity on every device down to the finest detail.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

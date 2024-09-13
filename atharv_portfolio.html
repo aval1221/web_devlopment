@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv_Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Trispace:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 100%;
+            overflow: hidden;
+
+        }
+        body{
+            background-color: #181C14;
+
+        }
+        header{
+            background-color: #3C3D37;
+            padding: 0px 0;
+            margin: 0;
+            color: #ECDFCC;
+            text-align: center;
+        }
+        header h1{
+            font-size: 9em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 700;
+            font-style: normal;           
+        }
+        header p{
+            font-size: 3em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #about{
+            margin-top: 20px;
+            margin-left: 0%;
+            margin-right: 0%;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+
+        }
+        #about img{
+            border-radius: 25%;
+            width: 150px;
+            
+        }
+        #about h2{
+            font-size: 3em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+           
+        }
+        #about p{
+            width: 50%;
+            font-size: 1.5em;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #skill{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+        }
+        #skill h2{
+            font-size: 3em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-bottom: 20px;
+        }
+        #skill ul{
+            list-style:none;
+            width: 50%;
+            margin-left:38%;
+        }
+        #skill ul li{
+            background-color: #3C3D37;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width:50%;
+            border-radius: 5px;
+            color: #ECDFCC;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #project{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+        }
+        #project h2{
+            font-size: 3em;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-bottom: 20px;
+        }
+        #project ul{
+            list-style:circle;
+            width: 50%;
+            margin-left: 25%;
+        }
+        #project ul li{
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width:100%;
+            border-radius: 5px;
+            color: #ECDFCC;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #resume{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+        }
+        #resume h2{ 
+            font-size: 3em;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 20px;
+        }
+        #resume a{
+            display: inline-block;
+            background-color:#3C3D37;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width:15%;
+            border-radius: 5px;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ECDFCC;
+            text-decoration: none;
+        }
+        #contact{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+        }
+        #contact h2{
+            font-size: 3em;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 20px;
+        }
+        #contact a{
+            display: inline-block;
+            background-color:#3C3D37;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width:15%;
+            border-radius: 5px;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ECDFCC;
+            text-decoration: none;
+        }
+        footer{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color:#697565;
+            color: #ECDFCC
+        }
+        footer p{
+            width: 50%;
+            font-size: 1.5em;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+       <div class="container">
+         <h1>Atharv Mane</h1>
+        <p>!Passionate coder!</p>
+       </div>
+    </header>
+    <section id="about">
+        <div class="container"><img src="https://i.pinimg.com/564x/30/37/1a/30371ac2f43f7e5fa30b69a978ab8832.jpg" alt="profile photo">
+        <h2>
+            About Me
+        </h2>
+    <p>Hello! I’m a full-stack developer and an enthusiastic learner with a passion for both backend and frontend development. I thrive on solving complex problems, exploring new technologies, and continuously improving my skills. Whether it’s building efficient backend systems or crafting engaging user interfaces, I’m always eager to learn and grow.</p></div>
+    </section>
+    <section id="skill">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>JAVA</li>
+                <li>PYTHON</li>
+                <li>HTML&CSS</li>
+                <li>MY SQL</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </section>
+    <section id="project">
+        <div class="container">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <h3>Event managment system</h3>
+                    <p>It is a java based project to keep the track of on going events and their progress.</p></li>
+                <li>
+                    <h3>FitStrid</h3>
+                    <p>It is an python based project used to document all the files virtually and to connect the doctor directly.</p>
+                </li>
+                <li>
+                    <h3>Personal Portfolio</h3>
+                    <p>This portfolio highlights my work as a full-stack developer, blending backend and frontend skills with a passion for coding and learning.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container">
+            <h2>My Resume</h2>
+            <a href="/resume.html"download target="_blank">Download My Resume</a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <a href="mailto.atharvgmane1221@gmail.com" target="_blank">E-Mail</a>
+            <a href="" target="_blank">Phone:XXXXXXXXXX</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; all rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
